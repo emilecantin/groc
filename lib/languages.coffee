@@ -70,6 +70,11 @@ LANGUAGES =
     pygmentsLexer:     'php'
     singleLineComment: ['//']
 
+  Puppet:
+    nameMatchers:      ['.pp']
+    pygmentsLexer:     'puppet'
+    singleLineComment: ['#']
+
   Python:
     nameMatchers:      ['.py']
     pygmentsLexer:     'python'
